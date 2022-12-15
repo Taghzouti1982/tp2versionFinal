@@ -14,9 +14,8 @@ router.get('/', async (req, res) => {
         res.status(500).json({ message: err.message })
     }
 })
-// Get one subscriber
-router.get('/:id', (req, res) => {
-})
+
+
 // Create one subscriber
 
 router.post('/', async (req, res) => {
