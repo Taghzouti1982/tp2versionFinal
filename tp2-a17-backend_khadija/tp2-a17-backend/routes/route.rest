@@ -1,0 +1,31 @@
+
+GET http://localhost:4000/plats
+
+###
+
+POST http://localhost:4000/plats
+Content-Type: application/json
+
+{
+"nom": "soupeeee",
+"categorie": "souper",
+"calorie": 1000,
+"recettes": "facile ",
+"img": "C:\projetsNosJS\tp2A17\assets\lasagne.jpg"
+}
+
+###
+DELETE http://localhost:4000/plats/638819887e97596fb4143250
+
+###
+
+PATCH http://localhost:4000/plats/63880d77bb665f493e63f2e6
+Content-Type: application/json
+
+{
+"nom": "Chakchouka",
+"categorie": "Dinner",
+"calorie": 1000,
+"recettes": "Dans une poêle chauffez l’huile d’olive puis faites revenir l’oignons,les tomates, les poivrons et les herbes, salez et poivrez. Formez des puits puis cassez les oeufs dans chaque puits et laissez cuire",
+"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0hXEEQ7nTMUz1LWaz1cMG2z1Sr2Xb7XhauQ&usqp=CAU"
+}
